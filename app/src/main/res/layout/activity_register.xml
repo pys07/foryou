@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="84dp"
+        android:text="Welcome, First Time with For You?"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="212dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/etEmailID"
+        android:layout_width="214dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Email ID"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="210dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="220dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Address"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/etContacts"
+        android:layout_width="289dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Contacts(comma-separated)"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btnL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        android:text="Login" />
+</LinearLayout>
