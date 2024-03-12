@@ -34,7 +34,7 @@ public class EmergencyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emergency);
         FusedLocationProviderClient fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
-        String email=UserSession.getUserEmail();
+        String email = UserSession.getUserEmail();
 
         btnD = findViewById(R.id.btnDanger);
         btnD.setOnClickListener(new View.OnClickListener() {
@@ -65,7 +65,6 @@ public class EmergencyActivity extends AppCompatActivity {
                                         DatabaseHelper dbHelper = new DatabaseHelper(EmergencyActivity.this);
                                         List<String> contactsList = dbHelper.getContacts(email);
                                         dbHelper.insertLocation(email, latitude, longitude);
-
 
                                         for (String contactNumber : contactsList) {
                                             String message = "Emergency! I need help. My location: " + locationDescription;
