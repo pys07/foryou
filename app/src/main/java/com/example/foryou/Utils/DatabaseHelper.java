@@ -24,7 +24,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String COL_LOCATION_LONGITUDE = "longitude";
 
     public DatabaseHelper(Context context) {
-        super(context, DATABASE_NAME, null, 4);
+        super(context, DATABASE_NAME, null, 6);
     }
 
     @Override
