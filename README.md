@@ -26,7 +26,7 @@ Think of it as your **pocket guardian angel** 🪽— with data, alerts, and a s
 
 ## 🏆 Achievements
 
-* 🥈 Secured 2nd Place in the Institution's Innovation Council (IIC) Idea Pitching Competition.
+* 🥈 Secured 2nd Place in the Institution's Innovation Council (IIC) Idea Pitching Competition 2023.
 
 ---
 
