@@ -20,7 +20,7 @@ Think of it as your **pocket guardian angel** 🪽— with data, alerts, and a s
 
 * 🎥 Demo Video – [Watch Here](https://youtu.be/PorbJP3cdTI)
 
-* 📑 Project Presentation – [View the Project Presentation](./demo/ForYou_Presentation)
+* 📑 Project Presentation – [View the Project Presentation](./demo/ForYou_Presentation.pdf)
 
 ---
 
